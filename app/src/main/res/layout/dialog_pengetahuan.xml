@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Silahkan Pilih Id Motor"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/idmo"
+            android:layout_width="339dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginStart="10dp"
+            android:autofillHints="Pilih Motor"
+            android:background="#ccc"
+            android:entries="@array/motor" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Silahkan Pilih Id Kerusakan"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/idker"
+            android:layout_width="339dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginStart="10dp"
+            android:autofillHints="Pilih Nama Kerusakan"
+            android:background="#ccc"
+            android:entries="@array/kerusakan" />
+
+        <EditText
+            android:id="@+id/editText110"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Silahkan Pilih Id Gejala"
+            android:textColor="#000000" />
+        <Spinner
+            android:id="@+id/idge"
+            android:layout_width="339dp"
+            android:layout_height="46dp"
+
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginStart="10dp"
+            android:autofillHints="Pilih Nama Gejala"
+            android:background="#ccc"
+            android:entries="@array/gejala" />
+
+        <EditText
+            android:id="@+id/editText38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dialoe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Bobot"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etbobot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

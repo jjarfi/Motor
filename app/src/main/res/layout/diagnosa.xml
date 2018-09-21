@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".Diagnosa.Diagnosa">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="11dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/pilihgejala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Pilih Gejala Kerusakan"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gejalapilihan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pilihgejala"
+            android:layout_marginTop="10dp"
+            android:paddingTop="100dp"
+            android:text="gejalaplhn"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/gejala1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pilihgejala"
+            android:layout_marginTop="10dp"
+            android:paddingTop="20dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="120dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="250dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbtidaktau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tidak Tahu"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbtidakyakin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tidak Yakin"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbsedikityakin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sedikit Yakin"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbcukupyakin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cukup Yakin"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbyakin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yakin"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbsangatyakin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sangat Yakin"
+                android:textStyle="bold" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="459dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btndiagnosa"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buton"
+            android:text="Diagnosa"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnlanjut"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buton"
+            android:text="Lanjut"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

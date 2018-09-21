@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jarfi.sispak">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".util.Jarfi"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Pakar Motor"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".User.Menu.usermenu"
+            android:label="Menu Pengguna"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin.adminmenu"
+            android:label="Menu Admin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin.adminmotor"
+            android:label="Input Data Motor"
+            android:parentActivityName=".Admin.adminmotor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Adapter.User.motoruser"
+            android:label="Info Data Motor"
+            android:parentActivityName=".User.Menu.usermenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin.adminkerusakan"
+            android:label="Input Data Kerusakan"
+            android:parentActivityName=".Admin.adminmotor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Adapter.User.kerusakanmotor"
+            android:label="Info Kerusakan"
+            android:parentActivityName=".User.Menu.usermenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin.admingejala"
+            android:label="Input Gejala Kerusakan"
+            android:parentActivityName=".Admin.adminmotor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Diagnosa.Diagnosa"
+            android:label="Diagnosa Kerusakan"
+            android:parentActivityName=".Adapter.User.motoruser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Diagnosa.Hasil_Diagnosa"
+            android:label="Hasil Diagnosa"
+            android:parentActivityName=".Diagnosa.Diagnosa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin.adminpengetahuan"
+            android:label="Input Data Pengetahuan"
+            android:parentActivityName=".Admin.adminmenu"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Adapter.User.aturanuser"></activity>
+    </application>
+
+</manifest>

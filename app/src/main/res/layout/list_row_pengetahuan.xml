@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#c10340"
+    android:paddingBottom="10dp"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/txtpengetahuan"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtnamapengetahuan"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtpengetahuan"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="2dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtnamarusa"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtpengetahuan"
+        android:layout_below="@+id/txtnamapengetahuan"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="1dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:text="Bobot Aturan    :"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ID Gejala            :"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="ID Kerusakan    :   "
+        android:textColor="#000"
+        android:textStyle="bold" />
+</RelativeLayout>

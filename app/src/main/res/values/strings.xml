@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SISPAK</string>
+    <string name="lbl_new_motor_title">Data Motor</string>
+    <string name="lbl_edit_motor_title">Edit Motor</string>
+    <string name="lbl_new_kerusakan_title">Data Kerusakan</string>
+    <string name="lbl_edit_kerusakan_title">Edit Kerusakan</string>
+    <string name="lbl_detail_kerusakan_title">Detail Kerusakan</string>
+    <string name="lbl_new_gejala_title">Data Gejala Kerusakan</string>
+    <string name="lbl_new_pengetahuan_title">Data Aturan Kerusakan</string>
+    <string name="lbl_edit_gejala_title">Edit Gejala Kerusakan</string>
+    <string name="lbl_edit_pengetahuan_title">Edit Aturan Kerusakan</string>
+    <string name="lbl_detail_gejala_title">Detail Gejala Kerusakan</string>
+    <string name="lbl_detail_pengetahuan_title">Detail Aturan Kerusakan</string>
+    <string-array name="motor">
+        <item>Silahkan Pilih Nama Motor</item>
+        <item>Honda</item>
+        <item>Yamaha</item>
+        <item>Suzuki</item>
+    </string-array>
+    <string-array name="kerusakan">
+        <item>Silahkan Pilih Kerusakan </item>
+    </string-array>
+    <string-array name="gejala">
+        <item>Silahkan Pilih ID Gejala </item>
+    </string-array>
+
+
+</resources>

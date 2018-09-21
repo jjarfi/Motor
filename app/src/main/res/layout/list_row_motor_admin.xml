@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#c10340"
+    android:paddingBottom="10dp"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/txtmotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttipe"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtmotor"
+        android:layout_marginStart="51dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tipe "
+        android:textColor="#000"
+        android:textStyle="bold" />
+</RelativeLayout>
